@@ -9,6 +9,8 @@ function Home() {
 
   const url = import.meta.env.VITE_URL
 
+  console.log(url);
+
   const {sidebarVisible,setSidebarVisible} = useSidebar()
   const [videoFetched,setVideoFetched] = useState(false)
   const [videos,setVideos] = useState([])
