@@ -1,0 +1,22 @@
+.sidebar::-webkit-scrollbar {
+    width: 0px;
+}
+.sidebar:hover::-webkit-scrollbar {
+    width: 8px;
+}
+  
+  /* Track */
+  .sidebar::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px rgb(121, 44, 44); */
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  .dsidebar::-webkit-scrollbar-thumb {
+    background: rgb(52, 51, 51);
+    border-radius: 10px;
+  }
+  .lsidebar::-webkit-scrollbar-thumb {
+    background: rgb(161, 154, 154);
+    border-radius: 10px;
+  }
